@@ -1,0 +1,6 @@
+google-adk
+google-generativeai
+faiss-cpu
+PyPDF2
+numpy
+python-dotenv
