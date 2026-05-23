@@ -1,5 +1,4 @@
-# created by virtualenv automatically
-* # Python
+# Python
 __pycache__/
 *.pyc
 
@@ -15,7 +14,10 @@ venv/
 
 # Vector Database
 vectorstore/
-data/poojitha_mv_resume_final.pdf
+
+# Ignore PDFs
+data/*.pdf
+
 # IDE
 .idea/
 
