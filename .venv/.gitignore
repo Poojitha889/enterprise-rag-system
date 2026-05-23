@@ -15,7 +15,7 @@ venv/
 
 # Vector Database
 vectorstore/
-
+data/poojitha_mv_resume_final.pdf
 # IDE
 .idea/
 
