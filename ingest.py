@@ -33,6 +33,7 @@ embedding_model = TextEmbeddingModel.from_pretrained(
 )
 
 DATA_FOLDER = "data"
+os.makedirs(DATA_FOLDER, exist_ok=True)
 
 all_chunks = []
 
@@ -106,6 +107,8 @@ index.add(embeddings)
 # ------------------------------------
 # Save FAISS Index
 # ------------------------------------
+VECTORFOLDER="vectorstore"
+os.makedirs(VECTORFOLDER, exist_ok=True)
 faiss.write_index(
     index,
     "vectorstore/index.faiss"

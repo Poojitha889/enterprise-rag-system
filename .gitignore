@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+
+# Google Credentials
+*.json
+
+# Vector Database
+vectorstore/
+
+# Ignore PDFs
+data/*.pdf
+
+# IDE
+.idea/
+
+# OS Files
+.DS_Store
+
+.gitignore
